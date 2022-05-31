@@ -1,0 +1,36 @@
+.main__photos {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 0;
+}
+
+.main__photos__element {
+    flex-basis: 25%;
+    height: 50%;
+    flex-grow: 0;
+    outline: none;
+}
+
+.main__photos__element:hover {
+    background: url('images/work_hover.jpg') center/cover no-repeat;
+
+}
+
+.main__photos__element:active {
+    background: url('images/work_active.jpg') center/cover no-repeat;
+    background-color: var(--color-red);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image:hover,
+.image:active {
+    opacity: 0.2;
+}
