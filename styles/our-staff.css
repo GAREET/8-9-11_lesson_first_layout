@@ -1,0 +1,80 @@
+.staff-cards {
+    width: 100%;
+    display: flex;
+    padding: 115px 0;
+    column-gap: 30px;
+    padding-bottom: 115px;
+}
+
+.cv-card {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-card__img {
+    height: 270px;
+    width: 270px;
+}
+
+.cv-card__img_1 {
+    background: url("../styles/Avatar/Ruth Woods.svg") center/cover no-repeat;
+}
+
+.cv-card__img_2 {
+    background: url("../styles/Avatar/Timothy Reed.svg") center/cover no-repeat;
+}
+
+.cv-card__img_3 {
+    background: url("../styles/Avatar/Viktoria Vladez.svg") center/cover no-repeat;
+}
+
+.cv-card__img_4 {
+    background: url("../styles/Avatar/Beverly Little.svg") center/cover no-repeat;
+}
+
+.cv-card__name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 30px 0 12px 0;
+}
+
+.cv-card__position {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--color-coral);
+}
+
+.cv-card__discription {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    color: var(--color-grey_text);
+    padding: 18px 0 40px 0;
+
+}
+
+.cv-card__links {
+    width: 270px;
+    display: flex;
+    column-gap: 6px;
+
+}
+
+.cv-card__links-icon>svg {
+    width: 39px;
+    height: 39px;
+    fill: none;
+}
+
+.cv-card__links-icon>svg:hover {
+    opacity: 0.5;
+    fill: gray;
+}
