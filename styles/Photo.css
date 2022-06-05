@@ -15,12 +15,12 @@
 }
 
 .main__photos__element:hover {
-    background: url('../images/work_hover.jpg') center/cover no-repeat;
+    background: url('images/work_hover.jpg') center/cover no-repeat;
 
 }
 
 .main__photos__element:active {
-    background: url('../images/work_active.jpg') center/cover no-repeat;
+    background: url('images/work_active.jpg') center/cover no-repeat;
     background-color: var(--color-red);
 }
 
