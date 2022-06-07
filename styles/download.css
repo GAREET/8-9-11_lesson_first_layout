@@ -20,3 +20,9 @@
     margin-top: 5px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 320px) {
+    .download-content {
+        max-width: 280px;
+    }
+}
