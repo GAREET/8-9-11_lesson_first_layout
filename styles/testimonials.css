@@ -1,5 +1,14 @@
+.testimonials {
+    width: 100%;
+    height: 535px;
+    margin-bottom: 114px;
+}
+
+
 .slider {
     width: 100%;
+    height: 500px;
+    overflow: hidden;
 }
 
 .slide {
@@ -10,12 +19,11 @@
 
 .slide_1 {
     width: 100%;
-    background-color: #5c3249;
 }
 
 .slide__img {
-    background: url("../styles/images/testimonials.jpg") center no-repeat;
-    flex-basis: 49.8%;
+    background: url("../styles/images/testimonials.jpg") center/cover no-repeat;
+    flex-basis: 50%;
     width: 50vw;
     height: 490px;
 }
@@ -27,7 +35,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-left: 120px; */
 }
 
 .slide__discription>h2 {

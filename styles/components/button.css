@@ -15,7 +15,6 @@
 }
 
 .button:hover {
-    opacity: 0.8;
     cursor: pointer;
     background-color: var(--color-red2);
 }
@@ -23,4 +22,10 @@
 .button:active {
     background-color: var(--color-coral);
     box-shadow: 4px 4px 30px var(--color-coral);
+}
+
+@media (max-width: 320px) {
+    .button {
+        width: 280px;
+    }
 }
